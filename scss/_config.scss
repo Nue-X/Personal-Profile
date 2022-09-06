@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+$font-stack: 'Chivo', sans-serif;
+
+@mixin animation($aniName, $aniTime) {
+    animation: $aniName $aniTime linear 6s infinite ;
+}
+
+@mixin otherAnimation($Name, $Time, $Delay) {
+    animation: $Name $Time ease $Delay forwards;
+}
+
+@mixin starAnimation($aniName, $aniDelay) {
+    position: absolute;
+    animation: $aniName 30s linear $aniDelay infinite ;
+}
+
+@mixin stars ($lefties, $tops,$rotates, $opacity) {
+    left: $lefties; top: $tops; transform: rotate($rotates); opacity: $opacity;
+}
+
+
