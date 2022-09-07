@@ -1,10 +1,12 @@
 @keyframes Hi{
-    from{transform: translateX(-200px); opacity: 0; text-shadow: 0 0 5px rgb(102, 51, 153, 0), -10px 10px 15px rgba(255, 255, 0, 0);}
-    to{transform: translateX(0); opacity: 1; text-shadow: 0 0 6px rebeccapurple, -10px 10px 15px rgba(255, 255, 0, 0.3);}
+    0%{transform: translateX(-200px); opacity: 0; text-shadow: 0 0 5px rgb(102, 51, 153, 0), -10px 10px 15px rgba(255, 255, 0, 0);}
+    50%{transform: translateX(0); opacity: .5; text-shadow: 0 0 6px rebeccapurple, -10px 10px 15px rgba(255, 255, 0, 0.3);}
+    100%{transform: translateX(0); opacity: 1; text-shadow: 0 0 6px rebeccapurple, -10px 10px 15px rgba(255, 255, 0, 0.3);}
 }
 @keyframes exclaim{
-    from{transform: translateY(-250px); opacity: .5; text-shadow: 0 0 5px rgba(102, 51, 153, 0), -10px 10px 15px rgba(57, 57, 57, 0);}
-    to{transform: translateY(0); opacity: 1; text-shadow: 0 0 5px rebeccapurple, -10px 10px 15px rgba(255, 255, 0, 0.3);}
+    0%{transform: translateY(-250px); opacity: .5; text-shadow: 0 0 5px rgba(102, 51, 153, 0), -10px 10px 15px rgba(57, 57, 57, 0);}
+    50%{transform: translateY(0); opacity: .5; text-shadow: 0 0 5px rebeccapurple, -10px 10px 15px rgba(255, 255, 0, 0.3);}
+    100%{transform: translateY(0); opacity: 1; text-shadow: 0 0 5px rebeccapurple, -10px 10px 15px rgba(255, 255, 0, 0.3);}
 }
 @keyframes introText{
     from{transform: translateY(250px); opacity: 0; text-shadow: -10px 10px 15px rgba(57, 57, 57, 0);}
