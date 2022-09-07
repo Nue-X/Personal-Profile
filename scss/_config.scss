@@ -15,7 +15,7 @@ $font-stack: 'Chivo', sans-serif;
     animation: $aniName 30s linear $aniDelay infinite ;
 }
 
-@mixin stars ($lefties, $tops,$rotates, $opacity) {
+@mixin stars ($lefties, $tops, $rotates, $opacity) {
     left: $lefties; top: $tops; transform: rotate($rotates); opacity: $opacity;
 }
 
