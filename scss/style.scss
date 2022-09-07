@@ -7,19 +7,16 @@
     .container{
         justify-content: center;
         gap: 3rem;
-
        .text-element{
             .hi-text{
                 font-size: 5.5rem;
             }
-
             .intro-text-cont{
                 .intro-text{
                     font-size: 3rem;
                 }
             }
         }
-
         .ball-container{
             .ball{
                 height: 250px;
@@ -32,23 +29,19 @@
         }
     }
 }
-
 // Tablet
 @media only screen and (min-width: 768px){
     .container{
         .text-element{
             .hi-text{
                 font-size: 8rem;
-           
             }
             .intro-text-cont{
                 .intro-text{
                     font-size: 5rem;
                 }
             }
-    
         }
-
         .ball-container{
             .ball{
                 height: 350px;
@@ -61,20 +54,17 @@
         }
     }
 }
-
 // Large Screen
 @media only screen and (min-width:1024px){
     .container{
         flex-direction: row;
         justify-content: space-between;
-            
         .text-element{
             text-align: left;
            .hi-text{
                 align-self: flex-start;
                 font-size: 6rem; 
             }
-           
             .intro-text-cont{
                 .intro-text{
                     margin: 0;
@@ -83,13 +73,11 @@
                 }
             }
         }
-    
         .ball-container{
             .ball{
                 height: 300px;
                 width: 300px;
             }
-            
             .shadow{
                 height: 55px;
                 width: 250px;
@@ -97,7 +85,6 @@
         }
     }
 }
-
 // Extra Large Screen
 @media only screen and (min-width:1200px){
     .container{
@@ -106,7 +93,6 @@
                 align-self: flex-start;
                 font-size: 8rem; 
             }
-           
             .intro-text-cont{
                 .intro-text{
                     margin: 0;
@@ -115,7 +101,6 @@
                 }
             }
         }
-    
         .ball-container{
             .ball{
                 height: 400px;
@@ -128,31 +113,3 @@
         }
     }
 }
-
-.stars{
-    opacity: 0;
-    height: auto;
-    width: auto;
-    color: whitesmoke;
-
-}
-
-.s-1{
-    @include starAnimation(star1, 6s);
-}
-.s-2{
-    @include starAnimation(star2, 0s);
-}
-.s-3{
-    @include starAnimation(star3, 3.5s);
-}
-.s-4{
-    @include starAnimation(star1, 21.5s);
-}
-.s-5{
-    @include starAnimation(star2, 15.5s);
-}
-.s-6{
-    @include starAnimation(star3, 19s);
-}
-
